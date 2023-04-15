@@ -18,22 +18,22 @@ input {
   cursor: pointer;
 }
 
-body {
-  background-color: #dae0f6;
-}
-
-.wrap {
-  width: 90%;
-  max-width: 1200px;
-  min-width: 800px;
-  padding-bottom: 3%;
-  margin: 5% auto;
-  background-color: #fff;
-  border-radius: 10px;
-}
-.wrap .nav {
-  font-weight: 500;
+.input-con {
+  width: 300px;
   display: flex;
-  justify-content: space-between;
-  padding: 1% 3%;
+  align-items: center;
+  width: 100%;
+  margin-right: 10%;
+}
+.input-con label {
+  width: 50px;
+  display: block;
+  color: #fff;
+  font-weight: 400;
+}
+.input-con .input {
+  padding: 0 10px;
+  line-height: 30px;
+  border-radius: 5px;
+  background-color: #fff;
 }

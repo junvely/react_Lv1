@@ -1,5 +1,19 @@
+@import "../../styles/scss/reset";
+
+body {
+  background-color: $color-white-purple;
+}
+
 .wrap {
   width: 100%;
-  height: 100vh;
-  background-color: pink;
+  max-width: 1200px;
+  min-width: 800px;
+  margin: 10% auto;
+  background-color: #fff;
+  border-radius: 10px;
+
+  .nav {
+    @include flex-space-between;
+    padding: 1% 3%;
+  }
 }

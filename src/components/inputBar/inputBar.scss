@@ -1,0 +1,13 @@
+@import "../../styles/scss/reset";
+
+.input-bar {
+  padding: 3% 5%;
+  display: flex;
+  justify-content: space-between;
+  background-color: $color-light-purple;
+
+  .inputs {
+    width: 50%;
+    display: flex;
+  }
+}

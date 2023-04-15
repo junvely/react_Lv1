@@ -1,0 +1,17 @@
+.todo-con {
+  width: 30%;
+  padding: 3%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 10px;
+}
+.todo-con h4 {
+  font-size: 24px;
+}
+.todo-con p {
+  margin: 10% 0;
+}
+.todo-con .buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

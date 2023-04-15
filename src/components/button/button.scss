@@ -1,0 +1,35 @@
+@import "../../styles/scss/reset";
+
+.button {
+  width: 200px;
+  line-height: 40px;
+  color: #fff;
+  background-color: #d8b0f8;
+  border-radius: 10px;
+  transition: all 0.2s;
+
+  &:hover {
+    font-weight: 500;
+    color: $color-light-purple;
+    background-color: #fff;
+  }
+}
+
+.button-delete,
+.button-cancel {
+  width: 45%;
+}
+
+.button-delete {
+  background-color: #ccc;
+
+  &:hover {
+    font-weight: 500;
+    color: #fff;
+    background-color: #696969;
+  }
+}
+
+.button-cancel {
+  border: 1px solid #d8b0f8;
+}
