@@ -1,7 +1,7 @@
-import "App.css";
+import "styles/css/app.css";
 
 function App() {
-  return <div className="App"></div>;
+  return <div className="wrap"></div>;
 }
 
 export default App;
