@@ -3,6 +3,7 @@
 #### 1. 프로젝트 Description
 
 TODO-LIST로 React 기초 실습하기. 컴포넌트 단위로 나누어 하나의 프로젝트 완성해 보기.
+
 App 보러가기 : https://hanghae-react-todo-list.vercel.app/
 
 ##### TODO-LIST 화면 이미지
