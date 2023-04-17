@@ -1,14 +1,26 @@
 import Button from "components/button/Button";
-import "styles/css/todo.css";
+import styles from "./todo.module.scss";
 
-export default function Todo() {
+export default function Todo({ todo, type, deleteTodo, doneToggleChange }) {
   return (
-    <div className="todo-con">
-      <h4>리액트 공부하기</h4>
-      <p>리액트 기초를 공부해봅시다.</p>
-      <div className="buttons">
-        <Button name="delete">삭제하기</Button>
-        <Button name="cancel">취소</Button>
+    <div className={styles.todoCon}>
+      <h4>{todo.title}</h4>
+      <p>{todo.text}</p>
+      <div className={styles.buttons}>
+        <Button
+          type={"delete"}
+          width={"45%"}
+          onclick={() => deleteTodo(todo.id)}
+        >
+          삭제하기
+        </Button>
+        <Button
+          type={type}
+          width={"45%"}
+          onclick={() => doneToggleChange(todo.id)}
+        >
+          {type === true ? "Done" : "Not yet"}
+        </Button>
       </div>
     </div>
   );

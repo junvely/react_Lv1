@@ -1,10 +1,15 @@
 @import "../../styles/scss/reset";
 
-.todo-list-con {
+.todoListCon {
   padding: 3% 5%;
 
   h3 {
     font-size: 32px;
     margin-bottom: 5%;
+  }
+
+  .todos {
+    display: flex;
+    flex-wrap: wrap;
   }
 }

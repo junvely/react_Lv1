@@ -18,10 +18,22 @@ input {
   cursor: pointer;
 }
 
-.todoListCon {
-  padding: 3% 5%;
+.inputCon {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-right: 10%;
 }
-.todoListCon h3 {
-  font-size: 32px;
-  margin-bottom: 5%;
+.inputCon label {
+  width: 50px;
+  display: block;
+  color: #fff;
+  font-weight: 400;
+}
+.inputCon .input {
+  padding: 0 10px;
+  line-height: 30px;
+  border-radius: 5px;
+  background-color: #fff;
 }

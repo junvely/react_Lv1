@@ -18,10 +18,13 @@ input {
   cursor: pointer;
 }
 
-.todoListCon {
+.inputBar {
   padding: 3% 5%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #a879e3;
 }
-.todoListCon h3 {
-  font-size: 32px;
-  margin-bottom: 5%;
+.inputBar .inputs {
+  width: 50%;
+  display: flex;
 }

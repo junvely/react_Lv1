@@ -25,3 +25,7 @@ input {
   font-size: 32px;
   margin-bottom: 5%;
 }
+.todoListCon .todos {
+  display: flex;
+  flex-wrap: wrap;
+}

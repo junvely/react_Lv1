@@ -1,11 +1,16 @@
-import React from "react";
-import "components/input/input.scss";
+import styles from "./input.module.scss";
 
-export default function Input({ children, name }) {
+export default function Input({ children, type, value, setValue }) {
   return (
-    <div className="input-con">
-      <label htmlFor={name}>{children}</label>
-      <input type="text" id={name} className={`input input-${name}`}></input>
+    <div className={styles.inputCon}>
+      <label htmlFor={type}>{children}</label>
+      <input
+        type="text"
+        id={type}
+        className={styles.input}
+        value={value}
+        onChange={(event) => setValue(event.target.value)}
+      ></input>
     </div>
   );
 }

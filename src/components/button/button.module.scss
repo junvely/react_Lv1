@@ -15,12 +15,12 @@
   }
 }
 
-.button-delete,
-.button-cancel {
+.delete {
   width: 45%;
 }
 
-.button-delete {
+.delete {
+  width: 150px;
   background-color: #ccc;
 
   &:hover {
@@ -30,6 +30,20 @@
   }
 }
 
-.button-cancel {
-  border: 1px solid #d8b0f8;
+.done {
+  background-color: #64dc95;
+
+  &:hover {
+    color: #fff;
+    background-color: #17d164;
+  }
+}
+
+.notYet {
+  background-color: #6736ed94;
+
+  &:hover {
+    color: #fff;
+    background-color: #6836ed;
+  }
 }
