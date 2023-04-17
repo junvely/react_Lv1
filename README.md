@@ -12,7 +12,7 @@ App 보러가기 : https://hanghae-react-todo-list.vercel.app/
 
 #### 2. 컴포넌트 구조 설계 : 반복되는 UI 및 구조상 컴포넌트화가 필요한 부분 컴포넌트로 생성
 
-- InputBar 컴포넌트 : todo 입력을 받는 모아놓은 Bar 컴포넌트 입니다.
+- InputBar 컴포넌트 : todo 입력을 받는 Bar 컴포넌트 입니다.
 
 - Input 컴포넌트 : 내용을 입력받는 input을 재사용하기 위해 컴포넌트화 하였습니다.
 
