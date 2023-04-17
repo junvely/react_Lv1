@@ -18,6 +18,7 @@ export default function TodoList({
             .map((item) => {
               return (
                 <Todo
+                  key={item.id}
                   todo={item}
                   type={false}
                   deleteTodo={deleteTodo}
@@ -31,6 +32,7 @@ export default function TodoList({
             .map((item) => {
               return (
                 <Todo
+                  key={item.id}
                   todo={item}
                   type={true}
                   deleteTodo={deleteTodo}
