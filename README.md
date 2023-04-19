@@ -21,3 +21,13 @@ App 보러가기 : https://hanghae-react-todo-list.vercel.app/
 - TodoList 컴포넌트 : todo를 보여주는 list 컴포넌트 입니다.
 
 - Todo 컴포넌트 : todo입력을 받은 내용을 보여주는 컴포넌트 입니다.
+
+##### 절대경로 상대경로로 변경하기
+```
+{
+  "compilerOptions": {
+    "baseUrl": "src"
+  },
+  "include": ["src"]
+}
+```
